@@ -29,6 +29,12 @@
           const data = response.data;
           alert(data);
         });
+        document.querySelector('#fortuneButton').addEventListener('click', function (){
+          axios
+          .get('/api/fortunes')
+          .then()
+          .catch(function(err){console.log(err)})
+        })
       };
       </script>
       <button id = "quoteButton">Get a fun quote!</button>
@@ -42,6 +48,13 @@
             alert(data);
           });
         };
+
+        document.querySelector('#quoteButton').addEventListener('click', function (){
+          axios
+          .get('/api/quote')
+          .then()
+          .catch(function(err){console.log(err)})
+        })
       </script>
       
     
@@ -86,5 +99,6 @@
  
   </body>
 </html>
+
 
 
