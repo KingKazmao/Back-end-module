@@ -62,5 +62,7 @@ app.listen(4000, () => console.log("Server running on 4000")); // i for the love
     // i click the buttons and nothing happens *face palm* and im assuming its because im not properly connected to the server?
     // i also tried adding another page link but couldnt finish in time
 // i added as much as i could as well, Blue text links( which i couldnt finish in time, i tried getting to take you to another page..), buttons (which i cannot get to work im gonna lose it man), check marks, fill in the blanks. a subbmit button
-//let me know what i can do to improve. im sorry if this is a little janky. 
+//let me know what i can do to improve. im sorry if this is a little janky. I also understand that i didnt have a tgtindex or anything to match what its referring to. i wasnt able to add all the fixes in time
+// i mostly have get functions it seems
+// 
 
